@@ -37,6 +37,7 @@ import 'package:flutter/material.dart';
        padding: EdgeInsets.all(8.0),
        child: new Center(
          child: new Column(
+           mainAxisAlignment: MainAxisAlignment.center,
            children: <Widget>[
              new Text(mytext),
              new RaisedButton(
