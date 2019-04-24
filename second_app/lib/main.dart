@@ -39,7 +39,7 @@ import 'package:flutter/material.dart';
          child: new Column(
            mainAxisAlignment: MainAxisAlignment.center,
            children: <Widget>[
-             new Text(mytext),
+             new Text(mytext,style: new TextStyle(fontStyle: FontStyle.italic ,fontSize: 20.0 ,color: Colors.pink ),),
              new RaisedButton(
                child: new Text("Click Me :)", style: new TextStyle(color: Colors.deepOrange, fontSize: 24.0, fontStyle: FontStyle.italic),),
                onPressed: changeText,
@@ -54,7 +54,7 @@ import 'package:flutter/material.dart';
    Widget build(BuildContext context) {
      return Scaffold(
        appBar:  new AppBar(
-         title: new Text("Flutter Pages"),
+         title: new Text("Flutter Pages", style: new TextStyle(color: Colors.amberAccent),),
        ),
        body: ClickButtonWidget()
      );
