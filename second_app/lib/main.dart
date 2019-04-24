@@ -53,7 +53,7 @@ import 'package:flutter/material.dart';
    @override
    Widget build(BuildContext context) {
      return Scaffold(
-       appBar:  new AppBar(
+       appBar:  new AppBar(backgroundColor: Colors.deepOrange ,
          title: new Text("Flutter Pages", style: new TextStyle(color: Colors.amberAccent),),
        ),
        body: ClickButtonWidget()
