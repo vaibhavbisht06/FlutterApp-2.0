@@ -41,7 +41,7 @@ import 'package:flutter/material.dart';
            children: <Widget>[
              new Text(mytext),
              new RaisedButton(
-               child: new Text("Click Me :)"),
+               child: new Text("Click Me :)", style: new TextStyle(color: Colors.deepOrange, fontSize: 24.0, fontStyle: FontStyle.italic),),
                onPressed: changeText,
                color: Colors.tealAccent,
              )
