@@ -43,6 +43,7 @@ import 'package:flutter/material.dart';
              new RaisedButton(
                child: new Text("Click Me :)"),
                onPressed: changeText,
+               color: Colors.tealAccent,
              )
            ],
          ),
